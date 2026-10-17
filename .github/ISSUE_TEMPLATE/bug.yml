@@ -1,0 +1,41 @@
+name: Błąd w programie
+description: Coś nie działa tak, jak powinno
+title: "[Błąd] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękuję za zgłoszenie! **Zgłoszenia są publiczne** – nie wpisuj danych osób żyjących ani innych prywatnych
+        informacji z drzewa. Zrzut ekranu możesz wkleić (Ctrl+V) w polu opisu – najpierw zasłoń dane osób żyjących.
+  - type: input
+    id: version
+    attributes:
+      label: Wersja programu
+      description: Ustawienia (⚙) → O programie
+      placeholder: v0.17
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      placeholder: Windows 11
+  - type: textarea
+    id: description
+    attributes:
+      label: Co się stało?
+      description: Opisz błąd; jeśli pojawił się komunikat – przepisz go.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Jak to powtórzyć?
+      placeholder: |
+        1. Otwieram …
+        2. Klikam …
+        3. Widzę …
+  - type: textarea
+    id: expected
+    attributes:
+      label: Czego się spodziewałeś?
