@@ -1,0 +1,139 @@
+# Umowa licencyjna programu Gentree
+
+Wersja umowy 1.9 z 7 listopada 2026 r.
+
+Ta umowa określa zasady korzystania z programu Gentree („Program”). Uruchamiając Program i klikając „Akceptuję”,
+zawierasz ją z autorem Programu. Jeśli się nie zgadzasz, nie korzystaj z Programu.
+
+## 1. Strony
+
+1. Licencjodawca: Łukasz Beluch, prowadzący działalność gospodarczą pod firmą Łukasz Beluch Consulting,
+   ul. Kurzei 2/29, 31-618 Kraków, NIP 7941717219 – autor Programu i właściciel praw autorskich do niego („Autor”).
+   Kontakt: kontakt@gentree.com.pl, strona https://gentree.com.pl.
+2. Licencjobiorca: osoba, która korzysta z Programu („Ty”).
+3. Zakup licencji przez stronę gentree.com.pl reguluje także Regulamin sprzedaży licencji
+   (https://gentree.com.pl/regulamin/).
+
+## 2. Co możesz robić
+
+1. Autor udziela Ci niewyłącznej, nieprzenoszalnej licencji na korzystanie z Programu na własny użytek –
+   prowadzenie drzewa genealogicznego swojej rodziny – na komputerach, z których korzystasz Ty.
+2. **Wersja bezpłatna** (bez klucza licencyjnego): dowolna liczba drzew, łącznie do 200 osób we wszystkich drzewach.
+   Bez ograniczenia czasu. Większe drzewo (np. wczytane z pliku GEDCOM) można otwierać i przeglądać, ale bez edycji,
+   eksportu i strony do internetu. Wydruki i obrazy drzewa mają oznaczenie „wersja darmowa”.
+3. **Wersja z licencją** (po wpisaniu klucza): „do 2000 osób” albo „bez limitu osób” – limit liczy się łącznie
+   dla wszystkich drzew. Wydruki bez oznaczenia „wersja darmowa”.
+4. Licencja płatna obejmuje **wersję główną Programu wskazaną w kluczu** (np. Gentree 1) wraz z jej poprawkami.
+   Wersje oznaczone 0.x (wydawane przed wersją 1.0) należą do wersji głównej Gentree 1.
+   Nowa wersja główna wymaga nowej licencji. Licencja nie wygasa – z wersji, którą kupiłeś, możesz korzystać
+   bez ograniczenia czasu.
+5. Możesz robić kopie Programu potrzebne do korzystania z niego (np. kopię zapasową pliku).
+
+## 3. Klucz licencyjny
+
+1. Klucz jest imienny – zawiera Twoje imię lub adres e-mail, który Program pokazuje w tytule okna.
+2. Nie udostępniaj klucza innym osobom. Klucz udostępniony publicznie oraz klucz licencji, za którą zwrócono
+   pieniądze, może zostać unieważniony: Program pobiera listę unieważnionych kluczy razem z informacją o aktualizacjach
+   (§ 5 pkt 4), a kolejne wersje Programu mają ją wbudowaną. Z unieważnionym kluczem Program działa dalej
+   jako wersja bezpłatna – Twoje drzewa i dane pozostają nienaruszone.
+3. Żeby wykryć udostępniony klucz, Program przy uruchomieniu zgłasza skrót klucza (§ 5 pkt 4). Ten sam klucz
+   używany z kilkudziesięciu różnych adresów internetowych uznajemy za udostępniony – Autor może się wtedy
+   z Tobą skontaktować, a w razie potwierdzenia unieważnić klucz (pkt 2).
+
+## 4. Czego nie wolno
+
+1. Sprzedawać, wynajmować ani udostępniać Programu lub klucza licencyjnego innym osobom w zamian za
+   wynagrodzenie.
+2. Rozpowszechniać zmienionych wersji Programu.
+3. Obchodzić ani usuwać zabezpieczeń licencyjnych (limitu osób, sprawdzania klucza).
+4. Dekompilować Programu, z wyjątkiem przypadków, na które wprost pozwala prawo (art. 75 ustawy o prawie
+   autorskim i prawach pokrewnych).
+
+## 5. Twoje dane i prywatność
+
+1. **Drzewo, zdjęcia i dokumenty zapisują się wyłącznie na Twoim komputerze**, w folderze, który wybierasz.
+   Program nie wysyła ich Autorowi ani nikomu innemu.
+2. Do działania niektórych funkcji Program korzysta z internetu: **mapa** pobiera biblioteki Leaflet i MapLibre
+   (cdnjs.cloudflare.com) oraz fragmenty mapy z serwisu OpenFreeMap (tiles.openfreemap.org), a na komputerach
+   bez obsługi grafiki WebGL – z serwisu OpenStreetMap (tile.openstreetmap.org). Te serwisy widzą Twój adres IP
+   i oglądany obszar mapy, ale nie dane z drzewa. Bez internetu mapa się nie wyświetli; reszta Programu działa.
+3. **Połączenie z Claude (MCP)** – funkcja dostępna z licencją, domyślnie wyłączona; włączasz ją w Ustawieniach.
+   Gdy jest włączona i dodasz Gentree do aplikacji Claude (Claude Desktop, Claude Code), Claude może odczytywać
+   otwarte drzewo i – na Twoją prośbę – zapisywać w nim zmiany (każdą możesz cofnąć). Dane drzewa, o które Claude
+   zapyta, trafiają do firmy Anthropic w ramach **Twojej** rozmowy, na **Twoim** koncie Claude i na zasadach Twojej
+   umowy z Anthropic – nie do Autora. Program domyślnie ukrywa przed Claude osoby uznane za żyjące. Autor dokłada
+   wszelkich starań, by dane tych osób nie trafiały do Claude, ale nie może zagwarantować, że ukrycie zadziała
+   w każdym przypadku. Dane osób żyjących mogą znaleźć się na przykład w notatkach, podpisach zdjęć, treści skanów
+   dokumentów albo u osób, których Program nie rozpoznał jako żyjących (np. bez dat i bez oznaczenia „Żyje”).
+   Decyzję o połączeniu drzewa z Claude podejmujesz Ty i to Ty odpowiadasz za dane przekazane w ten sposób firmie
+   Anthropic, w tym za zgodność z RODO. Włączając tę funkcję, akceptujesz to ryzyko i zobowiązujesz się nie
+   przekazywać Claude danych osób żyjących (nie wklejać ich, nie dołączać ich zdjęć ani dokumentów i nie prosić
+   o ich dopisanie). Ukrywanie działa tylko w połączeniu przez Program: jeśli dasz Claude lub innemu narzędziu
+   dostęp do plików drzewa na dysku (np. w Claude Code), zobaczy ono wszystkie dane, także osób żyjących, i odpowiadasz
+   za to Ty. Jeśli w drzewie są dane, których nie chcesz przekazywać, nie włączaj tej funkcji albo wyłącz ją przed
+   rozmową z Claude. Za treść rozmów i za zmiany zatwierdzone w Claude odpowiadasz Ty.
+   Wyłączenie przełącznika odcina Claude od drzewa.
+4. **Sprawdzanie aktualizacji i zgłoszenie uruchomienia:** przy uruchomieniu Program pobiera z serwisu GitHub
+   (repozytorium lukaszbel/gentree-download) mały plik z numerem najnowszej wersji oraz listę unieważnionych kluczy
+   licencyjnych (same skróty kluczy, bez danych osobowych); GitHub widzi Twój adres IP i wersję Programu.
+   Program zgłasza też uruchomienie serwerowi gentree.com.pl: numer wersji oraz – przy wpisanej licencji – skrót
+   klucza (16 znaków, sam klucz nie jest wysyłany). Serwer nie zapisuje Twojego adresu IP, tylko jego skrót
+   zmieniany co miesiąc, który pozwala policzyć, z ilu różnych adresów używany jest jeden klucz (§ 3 pkt 3);
+   wiersz zawiera datę, wersję, skrót klucza i skrót adresu. Skrót klucza Autor może powiązać ze swoją ewidencją
+   sprzedanych licencji. Celem jest ochrona przed udostępnianiem kluczy (prawnie uzasadniony interes Autora,
+   art. 6 ust. 1 lit. f RODO); zapisy są przechowywane nie dłużej niż 12 miesięcy. Dane drzewa nie są wysyłane.
+   Możesz to wyłączyć w Ustawieniach → Aktualizacje („Sprawdzaj przy uruchomieniu”).
+5. Za dane osób, które wprowadzasz (zwłaszcza osób żyjących), odpowiadasz Ty. Jeśli publikujesz drzewo w
+   internecie (funkcja „Strona do internetu”), Program pomija osoby żyjące i usuwa ze zdjęć metadane (np. GPS),
+   ale to Ty decydujesz, co publikujesz, i odpowiadasz za zgodność z prawem, w tym z RODO.
+6. Program nie zbiera statystyk użycia (poza zgłoszeniem uruchomienia z pkt 4) i nie wyświetla reklam.
+
+## 6. Kopie zapasowe
+
+Program przed importem i zastąpieniem drzewa zapisuje kopię poprzedniej bazy, ale nie zastępuje to kopii
+zapasowych. Regularnie kopiuj folder danych Programu (np. na dysk zewnętrzny lub do chmury).
+
+## 7. Odpowiedzialność
+
+1. Program jest dostarczany w stanie, w jakim jest. Autor dokłada starań, by działał poprawnie, ale nie
+   gwarantuje, że będzie wolny od błędów.
+2. Program instaluje się na koncie użytkownika bez uprawnień administratora i nie instaluje sterowników ani usług
+   systemowych. Jeśli w systemie brakuje składnika Microsoft Edge WebView2 (wyświetla okno Programu), instalator
+   pobiera i uruchamia oficjalny instalator Microsoft. Program zapisuje pliki tylko w swoim folderze, w folderze
+   ustawień (%APPDATA%\Gentree), w folderze danych, który wybierasz, oraz tam, gdzie sam zapiszesz eksport lub wydruk.
+   Korzystaj z Programu na komputerze z aktualnym systemem i rób kopie zapasowe (§ 6).
+3. W zakresie dozwolonym przez prawo Autor nie odpowiada za utratę danych ani za szkody wynikające z korzystania
+   z Programu lub z niemożności korzystania z niego, w szczególności za szkody spowodowane: zmianami w Programie
+   lub jego plikach dokonanymi przez inne osoby, działaniem innego oprogramowania lub sprzętu, korzystaniem
+   z Programu niezgodnie z tą umową albo brakiem kopii zapasowej danych.
+4. Jeśli korzystasz z Programu w związku z działalnością gospodarczą i nie jesteś konsumentem: odpowiedzialność
+   Autora jest ograniczona do szkody rzeczywistej i do kwoty zapłaconej za licencję; Autor nie odpowiada
+   za utracone korzyści.
+5. Ograniczenia z pkt 3 i 4 nie dotyczą szkody wyrządzonej umyślnie ani odpowiedzialności, której nie można
+   wyłączyć ani ograniczyć na podstawie bezwzględnie obowiązujących przepisów.
+6. Jeśli jesteś konsumentem, postanowienia tego paragrafu nie ograniczają Twoich praw wynikających z przepisów,
+   w szczególności z ustawy o prawach konsumenta (zgodność treści cyfrowej z umową).
+7. Problem z Programem zgłoś na kontakt@gentree.com.pl – opisz, co się stało, i podaj wersję Programu
+   i systemu. Odpowiemy w ciągu 14 dni.
+
+## 8. Odstąpienie od umowy (zakup licencji przez konsumenta)
+
+Konsument może odstąpić od umowy zawartej na odległość w ciągu 14 dni. Prawo to wygasa, jeśli na Twoje wyraźne
+żądanie Autor dostarczył klucz licencyjny przed upływem tego terminu, a Ty przyjąłeś do wiadomości, że tracisz
+prawo odstąpienia. Szczegóły podaje Regulamin sprzedaży licencji (§ 1 pkt 3).
+
+## 9. Składniki zewnętrzne
+
+Program zawiera lub wykorzystuje oprogramowanie innych autorów na ich licencjach, m.in.: Python (licencja PSF),
+pywebview (BSD), Leaflet (BSD-2-Clause). Mapy © autorzy OpenStreetMap (licencja ODbL). Te licencje dotyczą tylko
+tych składników. Pełne treści licencji: Ustawienia → O programie → „Licencje składników” (oraz plik
+LICENCJE-SKLADNIKOW.md przy pliku do pobrania).
+
+## 10. Postanowienia końcowe
+
+1. Umowa podlega prawu polskiemu.
+2. Autor może zmienić umowę dla nowych wersji Programu; Program poprosi wtedy o ponowną akceptację.
+   Zmiana nie odbiera praw z licencji kupionej wcześniej.
+3. Jeśli któreś postanowienie okaże się nieważne, pozostałe obowiązują nadal.
+
+© 2026 Łukasz Beluch (Łukasz Beluch Consulting). Wszelkie prawa zastrzeżone.
