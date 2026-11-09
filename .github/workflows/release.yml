@@ -1,0 +1,35 @@
+# Runs in the public repository lukaszbel/gentree-download (copied there by build-windows.yml on every release).
+# After each push of a new version: a GitHub Release with the installer as an asset – GitHub counts the downloads
+# of release assets (not of files in the repository), so this gives the number of downloads per version.
+# Only the newest version is public: older releases become drafts (hidden, the installer and its download count stay –
+# visible to the owner, e.g. `gh api repos/lukaszbel/gentree-download/releases`). Uses the repository's own token.
+name: Release
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Release with the installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(python3 -c "import json; print(json.load(open('version.json'))['version'])")
+          if gh release view "$V" >/dev/null 2>&1; then echo "Release $V already exists"; exit 0; fi
+          awk '/^## /{n++} n==1' NOWOSCI.md | sed '1d' > notes.md
+          gh release create "$V" Gentree-Setup.exe --title "Gentree $V" --notes-file notes.md --latest
+      - name: Hide older versions (drafts)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(python3 -c "import json; print(json.load(open('version.json'))['version'])")
+          gh release view "$V" >/dev/null 2>&1 || exit 0          # the new release must exist before the old ones go
+          gh api "repos/${{ github.repository }}/releases?per_page=100" --jq '.[] | select(.draft | not) | .tag_name' |
+            while read -r t; do
+              [ "$t" = "$V" ] && continue
+              gh release edit "$t" --draft=true && echo "Ukryte: $t"
+            done
