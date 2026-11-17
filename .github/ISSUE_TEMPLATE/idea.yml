@@ -1,0 +1,20 @@
+name: Pomysł / propozycja
+description: Czego brakuje albo co można zrobić lepiej
+title: "[Pomysł] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękuję! **Zgłoszenia są publiczne** – nie wpisuj danych osób żyjących ani prywatnych informacji z drzewa.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Twój pomysł
+      description: Co chcesz móc zrobić w programie i do czego by Ci się to przydało?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Wersja programu (jeśli dotyczy)
+      placeholder: v0.17
